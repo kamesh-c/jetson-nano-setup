@@ -1,0 +1,184 @@
+    1  nmtui
+    2  sudo nmtui
+    3  ping www.google.com
+    4  clear
+    5  sudo shutdown now
+    6  sudo jetson_clocks 
+    7  nvcc -V
+    8  python3
+    9  sudo apt-get install python3-pip libhdf5-serial-dev hdf5-tools
+   10  git clone https://github.com/kamesh-c/jetson-nano-setup.git
+   11  cd jetson-nano-setup/
+   12  ls -l
+   13  sudo sh ./initial-setup.sh 
+   14  vi initial-setup.sh 
+   15  sudo sh ./initial-setup.sh 
+   16  vi initial-setup.sh 
+   17  sudo sh ./initial-setup.sh 
+   18  vi initial-setup.sh 
+   19  sudo sh ./initial-setup.sh 
+   20  cat ./initial-setup.sh 
+   21  apt --yes update
+   22  sudo apt --yes update
+   23  sudo apt --yes upgrade
+   24  sudo apt upgrade
+   25  sudo apt-get upgrade
+   26  ps -ef 
+   27  ps -ef | grep apt
+   28  kill -9 7287
+   29  sudo kill -9 7287
+   30  ps -ef | grep apt
+   31  sudo apt upgrade
+   32  vi initial-setup.sh 
+   33  sudo sh ./initial-setup.sh 
+   34  clear
+   35  sudo dpkg --configure -a
+   36  sudo apt autoremove
+   37  sudo apt clean
+   38  cd /usr/local/bin/
+   39  ls l
+   40  ls -l
+   41  cd ..
+   42  which virtualenv
+   43  which virtualenvwrapper.sh
+   44  find virtualenvwrapper.sh
+   45  cd /
+   46  find virtualenvwrapper.sh
+   47  find . virtualenvwrapper.sh
+   48  cd /home/
+   49  ls -l
+   50  cd jetson/
+   51  ls -l
+   52  cd .local/
+   53  ls -l
+   54  cd bin/
+   55  ls -l
+   56  cd ~
+   57  cd jetson-nano-setup/
+   58  vi env-setup.sh
+   59  echo $USER
+   60  vi env-setup.sh
+   61  sudo sh ./env-setup.sh 
+   62  cat ./.bashrc 
+   63  source ./.bashrc 
+   64  sh env-setup.sh
+   65  vi .bashrc 
+   66  rm .bashrc 
+   67  sudo rm .bashrc 
+   68  vi .bashrc 
+   69  sh env-setup.sh
+   70  source .bashrc 
+   71  vi env-setup.sh
+   72  mv ~/.bashrc ~/backup-bashrc
+   73  cp ~/backup-bashrc ~/.bashrc
+   74  vi ~/.bashrc 
+   75  sh env-setup.sh
+   76  vi ~/.bashrc 
+   77  source ~/.bashrc 
+   78  git status
+   79  git add .
+   80  git status
+   81  mkvirtualenv opencv_cuda -p python3
+   82  mkvirtualenv dl4cv -p python3
+   83  workon dl4cv
+   84  mkvirtualenv dl4cv
+   85  cd $HOME/.virtualenvs
+   86  ls -l
+   87  echo $VIRTUALENVWRAPPER_PYTHON
+   88  cd ..
+   89  mkvirtualenv dl4cv
+   90  pip --version
+   91  pip3 install virtualenv
+   92  mkvirtualenv dl4cv
+   93  mkvirtualenv dl4cv -p python3
+   94  pip -p python3
+   95  pip3 install virtualenv virtualenvwrapper
+   96  sudo pip3 install virtualenv virtualenvwrapper
+   97  mkvirtualenv dl4cv -p python3
+   98  source .bashrc 
+   99  mkvirtualenv dl4cv -p python3
+  100  sudo shutdown now
+  101  mkvirtualenv dl4cv -p python3
+  102  clear
+  103  workon dl4cv
+  104  history
+  105  cd jetson-nano-setup/
+  106  history >> notes.txt
+  107  vi notes.txt 
+  108  mv notes.txt history
+  109  ls -l
+  110  pip install numpy
+  111  pip install -r requirement.txt 
+  112  pip --version
+  113  pip install scipy
+  114  pip install --upgrade pip
+  115  pip install scipypip install scipy-0.16.1-cp27-none-win_amd64.whl
+  116  pip install scipy
+  117  pip install -r requirement.txt 
+  118  vi requirement.txt 
+  119  pip install -r requirement.txt 
+  120  vi requirement.txt 
+  121  pip install -r requirement.txt 
+  122  vi requirement.txt 
+  123  pip install -r requirement.txt 
+  124  vi requirement.txt 
+  125  pip install -r requirement.txt 
+  126  sudo apt install libfreetype6-dev
+  127  sudo apt install libfreetype6-dev libxft-dev
+  128  sudo apt upgrade
+  129  sudo apt update
+  130  sudo apt upgrade
+  131  pip install matplotlib
+  132  pip install -r requirement.txt 
+  133  cd jetson-nano-setup/
+  134  git status
+  135  git add .
+  136  vi requirement.txt
+  137  ps -ef | grep pip
+  138  cd jetson-nano-setup/
+  139  vi requirement.txt 
+  140  ps -ef | grep pip
+  141  ps -ef | grep pip
+  142  cd jetson-nano-setup/
+  143  history
+  144  workon d14cv
+  145  workon dl4cv
+  146  clear
+  147  pip install -r requirement.txt 
+  148  pip install -U $(pip freeze | awk '{split($0, a, "=="); print a[1]}')
+  149  pip install pandas jupyter 
+  150  ps -ef | grep pip
+  151  history
+  152  workon dl4cv
+  153  pip install jupyter
+  154  clrar
+  155  clear
+  156  pip install scikit-learn xgboost joblib requests tqdm ipywidgets
+  157  sudo spt --yes cmake
+  158  sudo apt --yes cmake
+  159  sudo snap install cmake
+  160  pip install scikit-learn joblib requests tqdm ipywidgets
+  161  sudo apt install cython
+  162  pip install scikit-learn joblib requests tqdm ipywidgets
+  163  pip install --upgrade cython
+  164  pip install scikit-learn joblib requests tqdm ipywidgets
+  165  pip install xgboost-gpu
+  166  git clone https://github.com/dmlc/xgboost
+  167  git clone -recursive https://github.com/dmlc/xgboost
+  168  git clone --recursive https://github.com/dmlc/xgboost
+  169  rm -r xgboost/
+  170  rm -fr xgboost/
+  171  git clone --recursive https://github.com/dmlc/xgboost
+  172  cd xgboost
+  173  mkdir build
+  174  cd build
+  175  cmake .. -DUSE_CUDA=ON
+  176  history
+  177  sudo snap install cmake
+  178  snap install cmake
+  179  cd ../../..
+  180  cd ~
+  181  cd jetson-nano-setup/
+  182  history > history 
+  183  ls -l
+  184  history > history-snapshot 
