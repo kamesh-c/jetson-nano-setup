@@ -182,3 +182,33 @@
   182  history > history 
   183  ls -l
   184  history > history-snapshot 
+  253  diskutil list
+  254  sudo apt install exfat-fuse exfat-utils
+  255  df -h
+  256  cd /media/5E5D-0BFD/
+  257  ls -l
+  258  mkdir test
+  259  ls -
+  260  ls -l
+  261  clear
+  262  l s-l
+  263  ls -l
+  264  cp ~/jetson-nano-setup/ ./test/
+  265  cp -r ~/jetson-nano-setup/ ./test/
+  266  cd test/
+  267  ls -l
+  268  cd jetson-nano-setup/
+  269  ls -l
+  270  cd ..
+  271  cd ~
+  272  history 
+  273  lsblk
+  274  sudo unmount /media/67E3-17ED
+  275  sudo umount /media/67E3-17ED
+  276  sudo umount /media/5E5D-0BFD
+  277  sudo umount /media/5E5D-0C01 
+  278  lsblk
+  279  history 
+  280  history | last 40
+  281  history | bottom 40
+  282  history | tail 40
